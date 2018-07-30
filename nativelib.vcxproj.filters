@@ -29,10 +29,10 @@
     <ClCompile Include="nativelib_src\nativelib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="nativelib_src\srclib_win32.cpp">
+    <ClCompile Include="nativelib_src\dev_temp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="nativelib_src\dev_temp.c">
+    <ClCompile Include="nativelib_src\nativelib_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

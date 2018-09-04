@@ -96,7 +96,12 @@
 #else
 #define	OS_UNIX			// UNIX
 #define	UNIX			// UNIX
+#ifdef	__APPLE__
+#define UNIX_MACOS		// Mac OS X
+#define BRIDGE_PCAP		// Mac OS X
+#else
 #define UNIX_LINUX		// Linux
+#endif
 #endif	// _WIN32
 
 // Detemining CPU

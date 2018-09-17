@@ -243,6 +243,7 @@ size_t iconv(iconv_t __cd, char **__restrict __inbuf,
 	size_t *__restrict __outbytesleft);
 int iconv_close(iconv_t __cd);
 #else	// UNIX_LINUX
+#define LIBICONV_PLUG
 #include <iconv.h>
 #endif	// UNIX_LINUX
 
